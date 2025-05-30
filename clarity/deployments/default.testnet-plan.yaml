@@ -10,23 +10,23 @@ plan:
       transactions:
         - requirement-publish:
             contract-id: SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait
-            remap-sender: ST2SE8AX7SYG8639N96EQF79TK10BGCKB96ATM4ST
+            remap-sender: ST311YH5MBAJH23QP3MK7FZJAV2R3X23DJGBNWV4B
             remap-principals:
-              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: ST2SE8AX7SYG8639N96EQF79TK10BGCKB96ATM4ST
+              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: ST311YH5MBAJH23QP3MK7FZJAV2R3X23DJGBNWV4B
             cost: 4680
             path: "./.cache/requirements/SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait.clar"
             clarity-version: 1
         - requirement-publish:
             contract-id: SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard
-            remap-sender: ST2SE8AX7SYG8639N96EQF79TK10BGCKB96ATM4ST
+            remap-sender: ST311YH5MBAJH23QP3MK7FZJAV2R3X23DJGBNWV4B
             remap-principals:
-              SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE: ST2SE8AX7SYG8639N96EQF79TK10BGCKB96ATM4ST
+              SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE: ST311YH5MBAJH23QP3MK7FZJAV2R3X23DJGBNWV4B
             cost: 8400
             path: "./.cache/requirements/SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard.clar"
             clarity-version: 1
         - contract-publish:
             contract-name: funny-dog
-            expected-sender: ST2SE8AX7SYG8639N96EQF79TK10BGCKB96ATM4ST
+            expected-sender: ST311YH5MBAJH23QP3MK7FZJAV2R3X23DJGBNWV4B
             cost: 2156
             path: contracts/funny-dog.clar
             anchor-block-only: true
@@ -36,7 +36,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: nft-marketplace
-            expected-sender: ST2SE8AX7SYG8639N96EQF79TK10BGCKB96ATM4ST
+            expected-sender: ST311YH5MBAJH23QP3MK7FZJAV2R3X23DJGBNWV4B
             cost: 9283
             path: contracts/nft-marketplace.clar
             anchor-block-only: true
